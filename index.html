@@ -1,54 +1,47 @@
+<!DOCTYPE html>
 <html>
-  <link rel="stylesheet" type="text/css" href="game.css">
-  <head>
-    <title>Sample "Hello, World" Application</title>
-    </head>
-    <header>
-      <h1 class="header-title">CSS Grid - grid-template-areas</h1>
-    </header>
+<head>
 
-    <div class="hero">
-      <h1 class="hero-title">Grid areas</h1>
-      <p class="hero-subtitle">Making life easier</p>
-    </div>
+<!-- your webpage info goes here -->
 
-    <main>
-      <h1>From the blog</h1>
-      <div class="card">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/gridarea-card-img-01.jpg" alt="" class="card-img">
-        <h2 class="card-title">Blog post title</h2>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere semper urna, ut pellentesque sem fermentum vel. Mauris luctus quis lectus nec luctus. Donec ut diam et neque eleifend varius sed quis erat.</p>
-          <a href="">Read more</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/gridarea-card-img-01.jpg" alt="" class="card-img">
-        <h2 class="card-title">Blog post title</h2>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere semper urna, ut pellentesque sem fermentum vel. Mauris luctus quis lectus nec luctus. Donec ut diam et neque eleifend varius sed quis erat.</p>
-          <a href="">Read more</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/gridarea-card-img-01.jpg" alt="" class="card-img">
-        <h2 class="card-title">Blog post title</h2>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere semper urna, ut pellentesque sem fermentum vel. Mauris luctus quis lectus nec luctus. Donec ut diam et neque eleifend varius sed quis erat.</p>
-          <a href="">Read more</a>
-        </div>
-      </div>
+    <title>My First Website</title>
 
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
 
-    </main>
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
+	<link rel="stylesheet" href="style.css" type="text/css" />
 
-    <aside>
-      <h1>Sidebar stuff</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere semper urna, ut pellentesque sem fermentum vel. Mauris luctus quis lectus nec luctus. Donec ut diam et neque eleifend varius sed quis erat. In tempor pharetra felis at fermentum. Maecenas iaculis neque orci, sit amet sodales quam venenatis sit amet. Praesent eu enim nec velit bibendum accumsan a sed tellus. Aenean sed justo a tortor hendrerit imperdiet efficitur nec risus. Morbi gravida mi quis ultrices elementum. Pellentesque fermentum sodales sagittis. Sed vel efficitur nisl. Ut congue sodales sapien. Duis ultricies felis nunc, eu semper est tincidunt eu. Curabitur faucibus luctus eros, eget semper mauris dictum vel.</p>
-    </aside>
+</head>
+<body>
 
-    <footer>
-      <h1 class="footer-title">the end</h1>
-    </footer>
+<!-- webpage content goes here in the body -->
 
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/">My First Website</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li class="red"><a href="#/home.html">Home</a></li>
+				<li class="orange"><a href="#/about.html">About</a></li>
+				<li class="yellow"><a href="#/contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Home</h2>
+			<p>
+				This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
+			</p>
+			<p>
+				I can use my skills here to create websites for my business, my friends and family, my C.V, blog or articles. As well as any games or more experiment stuff (which is what the web is really all about).
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="/" target="_blank">[your name]</a>
+			</p>
+		</div>
+	</div>
+</body>
 </html>
