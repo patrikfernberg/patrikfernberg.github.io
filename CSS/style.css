@@ -18,7 +18,7 @@ body {
 }
 
 .grid-item {
-    padding: 1rem;
+    padding: 0rem;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -32,7 +32,7 @@ body {
 
 .span-1 {
     grid-column-end: span 4;
-    grid-row-end: span 6;
+    grid-row-end: span 5;
 }
 
 .span-2 {
