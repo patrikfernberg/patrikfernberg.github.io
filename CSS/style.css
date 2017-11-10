@@ -50,6 +50,6 @@ body {
     grid-row-end: span 2;
 }
 
-jsEditor{
+#jsEditor{
     height: 200px;
 }
