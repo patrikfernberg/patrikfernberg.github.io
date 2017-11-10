@@ -42,10 +42,10 @@ body {
 
 .span-3 {
     grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .span-4 {
     grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
