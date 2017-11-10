@@ -8,23 +8,23 @@
 	<meta name="description" content="" />
 
 <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
-	<link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.8/ace.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
 
 </head>
 <body>
 <div class="grid-layout">
     <div class="grid-item span-1 grid-item-1">
     <textarea rows="50" cols="70">
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+        <div id="jsEditor">
+            var data = "hello";
+            function say(){
+                console.log(data);
+            }
+        </div>
+        <script type="text/javascript">
+            var e = ace.edit("jsEditor");
+        </script>>
     </textarea>    
     </div>
     <div class="grid-item span-2 grid-item-2"></div>
